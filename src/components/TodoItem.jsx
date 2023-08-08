@@ -2,6 +2,7 @@ import React from 'react';
 
 const TodoItem = ({ todo, onDelete, onToggle }) => {
   return (
+  
     <div className={`todo-item${todo.completed ? ' completed' : ''}`}>
       <input
         type="checkbox"
